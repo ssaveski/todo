@@ -1,0 +1,25 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Todo project for Upshift",
+  "author": "Stefan Saveski",
+  "private": true,
+  "scripts": {
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "js-cookie": "^2.2.1",
+    "nuxt": "^2.0.0",
+    "simplebar-vue": "^1.3.0-alpha.0",
+    "vue-fa": "^2.0.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0",
+    "push-dir": "^0.4.1"
+  }
+}
