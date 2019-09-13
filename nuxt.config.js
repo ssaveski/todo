@@ -22,7 +22,7 @@ export default {
   */
   loading: { color: '#fff' },
 
-  router: { base: '/my-project/' },
+  router: { base: '/todo/' },
 
   /*
   ** Global CSS
